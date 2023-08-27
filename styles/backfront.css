@@ -1,0 +1,98 @@
+
+header{
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+h1{
+    font-family: 'Rubik', 'sans-serif';
+    font-weight: 500;
+}
+p,
+ul{
+    font-family: 'Rubik', 'sans-serif';
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1.3em;
+}
+.image-backend{
+    width: 350px;
+    height: 350px;
+}
+
+.image-front{
+    width: 200px;
+    height: 200px;
+}
+
+.image{
+    width: 30px;
+    height: 30px; 
+    margin: 10px;
+}
+
+.image-mobile{
+    width: 400px;
+    height: 350px;
+}
+
+@media (max-width: 565px){
+    .image-mobile{
+        width: 320px;
+        height: 300px;
+    }
+}
+
+main {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto
+}
+@media(max-width: 908px){
+    main{
+        flex-direction: column;
+    }
+}
+
+.container{
+    /* background-color: red; */
+    flex: 0.5;
+    margin-left: 20px;
+    width: 300px;
+    margin-top: 100px ;
+    max-height:460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.description{
+    font-family: 'Rubik', 'Sans-serif';
+    font-weight: 300;
+}
+
+
+button{
+    padding: 5px;
+    border-radius: 30px;
+    font-family: 'Rubik', 'sans-serif';
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkgreen;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
